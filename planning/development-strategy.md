@@ -1,4 +1,4 @@
-# Restaurants finder
+# HYF redesign
 
 ---
 
@@ -8,7 +8,7 @@
 
 ---
 
-## WIREFRAME
+## Wireframe
 
 ![wireframe]() -->
 
