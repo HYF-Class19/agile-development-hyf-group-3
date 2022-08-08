@@ -1,10 +1,11 @@
-# Name of project
+# HYF Website Redesign
 
-> A longer description
+> This website is about redesigning [HYF](https://hackyourfuture.be/) website
+> with relative pages and few new additions
 
 ## Table of contents
 
-- [Name of project](#name-of-project)
+- [HYF Website Redesign](#hyf-website-redesign)
   - [Table of contents](#table-of-contents)
   - [General info](#general-info)
   - [Screenshots](#screenshots)
@@ -49,7 +50,7 @@ console.log("Hello World");
 
 ## Features
 
-List of features ready and Todos for future development
+List of features ready and Todo's for future development
 
 -
 -
@@ -66,7 +67,7 @@ Project is: _in progress_
 
 ## Inspiration
 
-Project by freeCodeCamp.org
+Project by [HYF](https://hackyourfuture.be/)
 
 ## Contact
 
@@ -87,6 +88,7 @@ By [Name]
 
 - `npm run format`: Makes sure all the code in this repository is well-formatted
   (looks good).
+- `npm run format:check`: Will list the files that would be changed.
 - `npm run lint:ls`: Checks to make sure all folder and file names match the
   repository conventions.
 - `npm run lint:md`: Will lint all of the Markdown files in this repository.
