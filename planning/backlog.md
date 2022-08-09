@@ -9,10 +9,24 @@ create your own!
 
 > these are necessary for basic usability
 
-### Homepage
+### index.html
+
+- [ ] As a user I want to see a main section
+- There is distinct title and banner bellow the navbar
+
+- [ ] As a user I want to see a description about the program
+- There is a descriptive text about the program.
+
+- [ ] As a user I want to see the impact of HYF
+- There is a section with statistics of graduated students of HYF alumni
+- [ ] As a user I want to see the value of HYF
+- There is a section about the core value of HYF
+
+### The program page
 
 - [ ] As a user I want to see a clear logo
 - There is distinct logo at the top-left of the webpage
+
 - [ ] As a user I want to see a nav-bar link to different sections of the
       webpage
 - There is a nav-bar that links to different sections at the top-right of the
@@ -34,7 +48,15 @@ create your own!
 
 > these will complete the user experience, but are not necessary
 
-### Homepage
+### index.html
+
+- [ ] As a user I would like to see some testimonials
+- There is a three or four testimonials from graduated students
+
+- [ ] As a user I would like to see HYF partners
+- There are logos for HYF partners
+
+### The program page
 
 - [ ] As a user I would like to see more details about the programme
 - There is link to the full description of the programme and also for the
@@ -54,7 +76,15 @@ create your own!
 
 > would be really cool ... if there's time
 
-### Homepage
+### index.html
+
+- [ ] As a user it would be cool if there is a support section for donations
+- There is a form with a donation button
+
+- [ ] As a user it would be cool if, I can contact HYF
+- There are contact us form with google map in it
+
+### The program page
 
 - [ ] As a user it would be cool if there is some details about a mentorship
       programme after completing the course
