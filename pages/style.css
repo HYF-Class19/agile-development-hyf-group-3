@@ -1,5 +1,4 @@
 /*  general style start here */
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono&family=Work+Sans&display=swap");
 
 * {
@@ -29,6 +28,7 @@ h2 {
 }
 
 p {
+  font-family: "Space Mono", monospace;
   margin: 10px 0;
 }
 
