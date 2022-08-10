@@ -36,4 +36,9 @@ img {
   width: 100%;
 }
 
-/* logo style start here */
+/* logo */
+
+.logo {
+  width: 7%;
+  margin: 30px 80px;
+}
