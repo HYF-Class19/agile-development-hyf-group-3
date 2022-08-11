@@ -2,7 +2,7 @@
 
 <!-- some introduction -->
 
-Our website if majorly targeted towards the following users.
+Our website is majorly targeted towards the following users:
 
 <!-- a persona -->
 
