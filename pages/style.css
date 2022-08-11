@@ -98,7 +98,6 @@ img {
 
 /* banner section */
 .banner-1 {
-  padding: 0px;
   background: rgba(132, 123, 123, 0.7) url(images/home-header-hyf.jpg);
   width: 160%;
   height: 420px;
@@ -119,3 +118,4 @@ img {
   text-align: center;
   margin: 150px 0px;
 }
+
