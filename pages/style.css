@@ -12,7 +12,7 @@ body {
   line-height: 1.6;
   width: 100%;
   height: 100%;
-  max-width: 1280px;
+  /* max-width: 1280px; */
   align-content: center;
 }
 
@@ -41,18 +41,25 @@ img {
   width: 100%;
 }
 /* logo */
+
+.top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
 .logo {
   width: 6%;
-  margin: 18px 210px;
-  display: flex;
-  position: absolute;
+  min-width: 90px;
+  padding: 25px 0;
+  margin-left: 200px;
 }
 
 /*  nav links */
 
 nav {
-  padding: 20px 0;
-  font-size: 12px;
+  font-size: 1.1rem;
+  padding: 35px 0;
 }
 
 .nav-list {
@@ -62,6 +69,7 @@ nav {
   flex-direction: row;
   justify-content: flex-end;
   height: 100%;
+  padding-right: 50px;
 }
 
 .nav-list-item {
@@ -77,17 +85,7 @@ nav {
   background-color: rgb(74, 80, 187);
   font-weight: 600;
   border-radius: 4px;
-  padding: 10px 20px;
-}
-
-.our-program a {
-  background-color: transparent;
-  color: rgb(74, 80, 187);
-  font-size: 12px;
-  text-transform: uppercase;
-  font-weight: 600;
-  padding: 10px 20px;
-  margin-left: -20px;
+  padding: 20px 30px;
 }
 
 .nav-list-item a:hover {
@@ -99,8 +97,8 @@ nav {
 .banner-1 {
   background: rgba(132, 123, 123, 0.7) url(images/home-header-hyf.jpg);
   background-size: cover;
-  width: 160%;
-  height: 420px;
+  width: 100%;
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   border: 1px solid transparent;
@@ -108,7 +106,7 @@ nav {
 }
 
 .banner-name {
-  font-size: 64px;
+  font-size: 70px;
   line-height: 120%;
   text-transform: uppercase;
   font-family: "Work Sans", sans-serif;
@@ -122,14 +120,30 @@ nav {
 
 .our-program {
   width: 100%;
-  padding: 80px 50px 20px 210px;
+  padding: 90px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.program-text {
+  width: 40%;
+}
+
+.our-program a {
+  background-color: transparent;
+  color: rgb(74, 80, 187);
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 10px 20px;
+  margin-left: -20px;
 }
 
 .our-program h2 {
-  font-weight: 700;
+  font-weight: 800;
   color: rgb(28, 34, 148);
   text-align: left;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 140%;
   margin-bottom: 20px;
 }
@@ -137,9 +151,9 @@ nav {
 .our-program p {
   color: rgb(45, 48, 55);
   text-align: left;
-  max-width: 470px;
+  max-width: 600px;
   line-height: 160%;
-  font-size: 16px;
+  font-size: 1.2rem;
   font-weight: 300;
 }
 
@@ -158,18 +172,12 @@ nav {
 /* our program image */
 
 .our-image {
-  display: flex;
-  flex-direction: row;
-  position: absolute;
-  top: 46%;
-  right: 12%;
-  width: 35%;
+  width: 40%;
 }
 
 /* HYF Impact */
 .impact {
-  grid-area: impact;
-  width: 80%;
+  width: 85%;
   margin: 20px auto;
   background-color: rgba(255, 255, 255);
   box-shadow: 0 0 20px #e5e5e5;
@@ -194,6 +202,8 @@ nav {
   display: flex;
   text-align: center;
   align-items: center;
+  font-size: 1.2rem;
+  padding: 20px 80px;
 }
 
 .impact-stats {
@@ -204,6 +214,13 @@ nav {
 .box {
   width: 30%;
   color: white;
+  font-weight: 500;
+  font-size: 1.2rem;
   background-color: rgb(28, 34, 148);
-  padding: 20px;
+  padding: 20px 50px 20px 20px;
+}
+
+.title h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
 }
