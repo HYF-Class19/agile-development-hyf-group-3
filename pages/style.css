@@ -47,7 +47,8 @@ img {
   grid-template-areas:
     "logo nav-links"
     "banner banner"
-    "our-program our-program-image";
+    "our-program our-program-image"
+    "impact impact";
 }
 
 /* logo */
@@ -95,3 +96,52 @@ img {
   border-bottom: 3px solid rgb(74, 80, 187);
   padding-bottom: 10px;
 }
+
+/* HYF Impact */
+
+.impact {
+  grid-area: impact;
+  width: 80%;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255);
+  box-shadow: 0 0 20px #e5e5e5;
+  border: none;
+  padding: 50px;
+}
+
+.impact-text {
+  width: 100%;
+}
+
+.impact-text h2 {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 800;
+  color: rgb(28, 34, 148);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.text-paragraph {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.impact-stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  width: 30%;
+  color: white;
+  background-color: rgb(28, 34, 148);
+  padding: 20px;
+}
+
+/* .impact-stats {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-areas: "box-one" "box-two" "box-three";
+} */
