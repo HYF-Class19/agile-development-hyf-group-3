@@ -30,6 +30,7 @@ h2 {
   font-weight: 300;
   line-height: 1.2;
   margin: 10px 0;
+  text-transform: uppercase;
 }
 
 p {
@@ -94,4 +95,57 @@ img {
   color: rgb(92, 91, 91);
   border-bottom: 3px solid rgb(74, 80, 187);
   padding-bottom: 10px;
+}
+
+/* Our program */
+
+.our-program {
+  width: 100%;
+  padding: 0px 0px 20px 260px;
+}
+.our-program h2 {
+  font-weight: 700;
+  color: rgb(28, 34, 148);
+  text-align: left;
+  font-size: 20px;
+  line-height: 140%;
+  margin-bottom: 20px;
+}
+
+.our-program p {
+  color: rgb(45, 48, 55);
+  text-align: left;
+  max-width: 470px;
+  line-height: 160%;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.our-program p b {
+  color: rgb(74, 80, 187);
+  font-weight: bold;
+}
+
+.our-program a {
+  background-color: transparent;
+  color: rgb(74, 80, 187);
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 10px 20px;
+}
+
+.our-program a:hover {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgb(225, 225, 225);
+}
+
+/* our program image*/
+
+.our-image {
+  background: url(images/our-program.jpg) 0% 0% / cover transparent;
+  justify-content: flex-start;
+  align-items: stretch;
 }
