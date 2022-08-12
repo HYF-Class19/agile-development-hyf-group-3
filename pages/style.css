@@ -81,6 +81,16 @@ nav {
   padding: 10px 20px;
 }
 
+.our-program a {
+  background-color: transparent;
+  color: rgb(74, 80, 187);
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 10px 20px;
+  margin-left: -20px;
+}
+
 .nav-list-item a:hover {
   color: rgb(236, 229, 229);
   border-bottom: 3px solid rgb(74, 80, 187);
@@ -138,16 +148,6 @@ nav {
 .our-program p b {
   color: rgb(74, 80, 187);
   font-weight: bold;
-}
-
-.our-program a {
-  background-color: transparent;
-  color: rgb(74, 80, 187);
-  font-size: 12px;
-  text-transform: uppercase;
-  font-weight: 600;
-  padding: 10px 20px;
-  margin-left: -20px;
 }
 
 .our-program a:hover {
