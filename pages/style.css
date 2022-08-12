@@ -30,6 +30,7 @@ h2 {
   font-weight: 300;
   line-height: 1.2;
   margin: 10px 0;
+  text-transform: uppercase;
 }
 
 p {
@@ -39,37 +40,27 @@ p {
 img {
   width: 100%;
 }
-
-/* index grid layout */
-.index {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-areas:
-    "logo nav-links"
-    "banner banner"
-    "our-program our-program-image"
-    "impact impact";
-}
-
 /* logo */
 .logo {
-  width: 14%;
+  width: 6%;
   margin: 18px 210px;
-  grid-area: logo;
   display: flex;
-  justify-content: center;
+  position: absolute;
 }
 
 /*  nav links */
 
+nav {
+  padding: 20px 0;
+  font-size: 12px;
+}
+
 .nav-list {
   font-family: "Work Sans", sans-serif;
   text-transform: uppercase;
-  grid-area: nav-links;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  align-items: center;
   height: 100%;
 }
 
@@ -79,8 +70,6 @@ img {
 
 .nav-list-item a {
   color: rgb(127, 127, 127);
-  font-size: 12px;
-  font-style: normal;
 }
 
 .apply-now a {
@@ -91,14 +80,93 @@ img {
   padding: 10px 20px;
 }
 
+.our-program a {
+  background-color: transparent;
+  color: rgb(74, 80, 187);
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 10px 20px;
+  margin-left: -20px;
+}
+
 .nav-list-item a:hover {
-  color: rgb(92, 91, 91);
+  color: rgb(236, 229, 229);
   border-bottom: 3px solid rgb(74, 80, 187);
   padding-bottom: 10px;
 }
 
-/* HYF Impact */
+.banner-1 {
+  background: rgba(132, 123, 123, 0.7) url(images/home-header-hyf.jpg);
+  background-size: cover;
+  width: 160%;
+  height: 420px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid transparent;
+  background-blend-mode: darken;
+}
 
+.banner-name {
+  font-size: 64px;
+  line-height: 120%;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 150px 0;
+}
+
+/* Our program */
+
+.our-program {
+  width: 100%;
+  padding: 80px 50px 20px 210px;
+}
+
+.our-program h2 {
+  font-weight: 700;
+  color: rgb(28, 34, 148);
+  text-align: left;
+  font-size: 20px;
+  line-height: 140%;
+  margin-bottom: 20px;
+}
+
+.our-program p {
+  color: rgb(45, 48, 55);
+  text-align: left;
+  max-width: 470px;
+  line-height: 160%;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.our-program p b {
+  color: rgb(74, 80, 187);
+  font-weight: bold;
+}
+
+.our-program a:hover {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgb(225, 225, 225);
+}
+
+/* our program image */
+
+.our-image {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 46%;
+  right: 12%;
+  width: 35%;
+}
+
+/* HYF Impact */
 .impact {
   grid-area: impact;
   width: 80%;
@@ -139,9 +207,3 @@ img {
   background-color: rgb(28, 34, 148);
   padding: 20px;
 }
-
-/* .impact-stats {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-areas: "box-one" "box-two" "box-three";
-} */
