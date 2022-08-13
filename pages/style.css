@@ -13,7 +13,7 @@ body {
   width: 100%;
   height: 100%;
 
-  /* max-width: 1280px; */
+  max-width: 100vw;
   align-content: center;
 }
 
@@ -224,4 +224,74 @@ nav {
 .title h2 {
   font-size: 1.4rem;
   font-weight: 700;
+}
+
+/* HYF The program page start here */
+.pro-intro {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+  padding: 50px 20px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.pro-short-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 35%;
+  margin-left: 200px;
+  margin-right: 50px;
+}
+
+.pro-short-intro h1 {
+  font-size: 36px;
+  line-height: 120%;
+  margin: 20px auto;
+  font-weight: 700;
+  color: rgb(74, 80, 187);
+  text-align: left;
+}
+
+.pro-paragraph1 {
+  color: rgb(45, 48, 55);
+  text-align: left;
+  font-size: 16px;
+  margin: 10px 0px;
+}
+
+.pro-paragraph1 b {
+  display: inline;
+  color: rgb(74, 80, 187);
+  font-weight: bold;
+}
+
+.pro-appli-para {
+  text-decoration: underline;
+  color: rgb(74, 80, 187);
+  padding: 50px 0;
+}
+
+.pro-apply {
+  display: inline-flex;
+  font-size: 12px;
+  background-color: rgb(74, 80, 187);
+  color: white;
+  font-weight: 600;
+  border-radius: 4px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+}
+
+.pro-intor-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-left: 20px;
 }
