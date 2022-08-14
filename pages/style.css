@@ -133,6 +133,17 @@ nav {
   margin-left: -20px;
 }
 
+.become-partner a {
+  color: rgb(74, 80, 187);
+  font-size: 12px;
+  line-height: 160%;
+  font-weight: 600;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+}
+
 .nav-list-item a:hover {
   color: rgb(236, 229, 229);
   border-bottom: 3px solid rgb(74, 80, 187);
@@ -293,4 +304,54 @@ nav {
   height: 100%;
   object-fit: cover;
   margin-left: 20px;
+}
+
+/* HYF partners */
+
+.partners-container {
+  width: 85%;
+  margin: 20px auto;
+  padding: 50px 0;
+}
+
+.partners-title-c {
+  display: inline-flex;
+}
+
+.partners-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: rgb(28, 34, 148);
+  text-align: left;
+}
+
+.become-partner {
+  display: inline-flex;
+  align-items: flex-end;
+}
+
+.become-partner a:hover {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgb(225, 225, 225);
+}
+
+.our-partners-image {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.our-partners-image img {
+  display: inline-block;
+  flex-direction: row;
+  width: 170px;
+  z-index: 0;
+  height: 100%;
+  -webkit-box-align: center;
+  justify-content: space-between;
 }
