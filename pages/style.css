@@ -424,6 +424,7 @@ nav {
   width: 100%;
   padding: 50px 20px;
   display: flex;
+  margin-bottom: 20px;
 }
 
 .apply-left {
