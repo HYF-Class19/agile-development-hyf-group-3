@@ -89,7 +89,7 @@ nav {
   padding: 20px 30px;
 }
 
-.banner-1 {
+.banner {
   background: rgba(132, 123, 123, 0.7) url(images/home-header-hyf.jpg);
   background-size: cover;
   width: 100%;
@@ -100,7 +100,7 @@ nav {
   background-blend-mode: darken;
 }
 
-.banner-name {
+.banner-text {
   font-size: 70px;
   line-height: 120%;
   text-transform: uppercase;
