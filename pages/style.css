@@ -461,3 +461,7 @@ apply-right {
 .apply-right img {
   background-color: rgb(28, 34, 148);
 }
+
+.apply-right i {
+  color: #1c2294;
+}
