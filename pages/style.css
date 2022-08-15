@@ -410,6 +410,10 @@ nav {
   color: #4867aa;
 }
 
+.apply-right i {
+  color: #1c2294;
+}
+
 .social-media i:hover {
   margin-top: -3px;
   text-shadow: 0 14px 10px rgba(0, 0, 0, 0.4);
@@ -460,8 +464,4 @@ apply-right {
 
 .apply-right img {
   background-color: rgb(28, 34, 148);
-}
-
-.apply-right i {
-  color: #1c2294;
 }
