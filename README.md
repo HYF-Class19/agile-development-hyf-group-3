@@ -29,9 +29,9 @@
 
 ## Screenshots
 
-![HYF|Redesign|Homepage](/agile-development-hyf-group-3/pages/images/screenshot-hyf.png)
+![HYF|Redesign|Homepage](planning/screenshot-hyf.png)
 
-![the program page](/agile-development-hyf-group-3/pages/images/screenshot-hyf-theprogrampage.png)
+![the program page](planning/screenshot-hyf-theprogrampage.png)
 
 ## Technologies
 
@@ -75,11 +75,11 @@ Project by [HYF](https://hackyourfuture.be/)
 
 ## Contact
 
-[Azima](https://github.com/AzimaKai)
-[John Edelbi](https://github.com/johnedelbi)
-[Brian Munene](https://github.com/BrianMunene96)
-[Verousca](https://github.com/Verousca)
-[John Olutubo](https://github.com/JohnOlutubo)
+- [Azima](https://github.com/AzimaKai)
+- [John Edelbi](https://github.com/johnedelbi)
+- [Brian Munene](https://github.com/BrianMunene96)
+- [Verousca](https://github.com/Verousca)
+- [John Olutubo](https://github.com/JohnOlutubo)
 
 ## Instructions for use
 
