@@ -1,13 +1,19 @@
 # HYF Website Redesign
 
-> This website is about redesigning [HYF](https://hackyourfuture.be/) website
-> with relative pages and few new additions
+> This website is about redesigning from original
+> [HYF](https://hackyourfuture.be/) website to recreated by Group-3 new website
+> [HYF|Redesign](https://hyf-class19.github.io/agile-development-hyf-group-3/pages/)
+> with:
+
+- [Homepage](https://hyf-class19.github.io/agile-development-hyf-group-3/pages/)
+- [The program page](https://hyf-class19.github.io/agile-development-hyf-group-3/pages/program.html)
+- [Volunteer page](https://hyf-class19.github.io/agile-development-hyf-group-3/pages/volunteer.html)
+- [About page](https://hyf-class19.github.io/agile-development-hyf-group-3/pages/about.html)
 
 ## Table of contents
 
 - [HYF Website Redesign](#hyf-website-redesign)
   - [Table of contents](#table-of-contents)
-  - [General info](#general-info)
   - [Screenshots](#screenshots)
   - [Technologies](#technologies)
   - [Setup](#setup)
@@ -21,13 +27,11 @@
   - [Continuous Integration (CI)](#continuous-integration-ci)
   - [Repo Setup](#repo-setup)
 
-## General info
-
-> A short description
-
 ## Screenshots
 
-![Example screenshot](./planning/screenshot.jpg)
+![HYF|Redesign|Homepage](/agile-development-hyf-group-3/pages/images/screenshot-hyf.png)
+
+![the program page](/agile-development-hyf-group-3/pages/images/screenshot-hyf-theprogrampage.png)
 
 ## Technologies
 
@@ -71,7 +75,11 @@ Project by [HYF](https://hackyourfuture.be/)
 
 ## Contact
 
-By [Name]
+[Azima](https://github.com/AzimaKai)
+[John Edelbi](https://github.com/johnedelbi)
+[Brian Munene](https://github.com/BrianMunene96)
+[Verousca](https://github.com/Verousca)
+[John Olutubo](https://github.com/JohnOlutubo)
 
 ## Instructions for use
 

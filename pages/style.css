@@ -28,7 +28,7 @@ a {
 h1,
 h2 {
   font-family: "Work Sans", sans-serif;
-  font-weight: 300;
+  font-weight: 800;
   line-height: 1.2;
   margin: 10px 0;
   text-transform: uppercase;
@@ -89,15 +89,17 @@ nav {
   padding: 10px 20px;
 }
 
+/* banner section */
 .banner {
   background: rgba(132, 123, 123, 0.7) url(images/home-header-hyf.jpg);
   background-size: cover;
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   border: 1px solid transparent;
   background-blend-mode: darken;
+  padding: 125px;
 }
 
 .banner-text {
@@ -105,14 +107,14 @@ nav {
   line-height: 120%;
   text-transform: uppercase;
   font-family: "Work Sans", sans-serif;
-  font-weight: 700;
-  color: rgb(255, 255, 255);
+  font-weight: 800;
+  color: #fff;
   text-align: center;
-  margin: 150px 0;
+  margin: 0 auto;
+  text-shadow: 0 0 3px rgb(148, 141, 141);
 }
 
 /* Our program */
-
 .our-program {
   width: 100%;
   padding: 90px;
@@ -233,7 +235,7 @@ nav {
   display: flex;
   text-align: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 16px;
   padding: 20px 80px;
 }
 
@@ -254,6 +256,107 @@ nav {
 .title h2 {
   font-size: 1.4rem;
   font-weight: 700;
+}
+
+/* HYF partners */
+.partners-container {
+  width: 85%;
+  margin: 20px auto;
+  padding: 50px 0;
+}
+
+.partners-title-c {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.partners-title {
+  margin-bottom: 20px;
+  color: rgb(28, 34, 148);
+  text-align: left;
+}
+
+.become-partner a:hover {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgb(225, 225, 225);
+}
+
+.our-partners-image {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.our-partners-image img {
+  display: inline-block;
+  flex-direction: row;
+  width: 170px;
+  z-index: 0;
+  height: 100%;
+  -webkit-box-align: center;
+  justify-content: space-between;
+}
+
+/* Footer */
+.footer {
+  padding: 50px 20px;
+  box-shadow: rgb(0 0 0 / 8%) 0 0 53px;
+}
+
+.footer-title {
+  text-shadow: 0 14px 10px rgba(0, 0, 0, 0.4);
+  font-weight: bolder;
+  color: #4867aa;
+  text-transform: uppercase;
+}
+
+.email-text,
+.footer-p {
+  color: rgb(45, 48, 55);
+}
+
+/* social media icons */
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 100vh;
+}
+
+.social-media i {
+  padding: 10px;
+  text-shadow: 0 6px 8px rgba(0, 0, 0, 0.6);
+  transition: all ease-in-out 150ms;
+}
+
+.social-media a:nth-child(1) {
+  color: #4867aa;
+}
+
+.social-media a:nth-child(2) {
+  color: #4867aa;
+}
+
+.social-media a:nth-child(3) {
+  color: #4867aa;
+}
+
+.social-media a:nth-child(4) {
+  color: #4867aa;
+}
+
+.apply-right i {
+  color: #1c2294;
+}
+
+.social-media i:hover {
+  margin-top: -3px;
+  text-shadow: 0 14px 10px rgba(0, 0, 0, 0.4);
 }
 
 /* HYF The program page start here */
@@ -320,110 +423,6 @@ nav {
   margin-left: 20px;
 }
 
-/* HYF partners */
-
-.partners-container {
-  width: 85%;
-  margin: 20px auto;
-  padding: 50px 0;
-}
-
-.partners-title-c {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.partners-title {
-  font-size: 24px;
-  margin-bottom: 20px;
-  font-weight: 700;
-  color: rgb(28, 34, 148);
-  text-align: left;
-}
-
-.become-partner a:hover {
-  border: 1px solid transparent;
-  border-radius: 4px;
-  box-sizing: border-box;
-  background-color: rgb(225, 225, 225);
-}
-
-.our-partners-image {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  -webkit-box-pack: justify;
-  justify-content: space-between;
-}
-
-.our-partners-image img {
-  display: inline-block;
-  flex-direction: row;
-  width: 170px;
-  z-index: 0;
-  height: 100%;
-  -webkit-box-align: center;
-  justify-content: space-between;
-}
-
-/* footer */
-.footer {
-  padding: 50px 20px;
-  box-shadow: rgb(0 0 0 / 8%) 0 0 53px;
-}
-
-.footer-title {
-  text-shadow: 0 14px 10px rgba(0, 0, 0, 0.4);
-  font-weight: bolder;
-  color: #4867aa;
-  text-transform: uppercase;
-}
-
-.email-text,
-.footer-p {
-  color: rgb(45, 48, 55);
-}
-
-/* social media icons */
-.social-media {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-height: 100vh;
-}
-
-.social-media i {
-  padding: 10px;
-  text-shadow: 0 6px 8px rgba(0, 0, 0, 0.6);
-  transition: all ease-in-out 150ms;
-}
-
-.social-media a:nth-child(1) {
-  color: #4867aa;
-}
-
-.social-media a:nth-child(2) {
-  color: #4867aa;
-}
-
-.social-media a:nth-child(3) {
-  color: #4867aa;
-}
-
-.social-media a:nth-child(4) {
-  color: #4867aa;
-}
-
-.apply-right i {
-  color: #1c2294;
-}
-
-.social-media i:hover {
-  margin-top: -3px;
-  text-shadow: 0 14px 10px rgba(0, 0, 0, 0.4);
-}
-
 /* The requirements sections(who can apply) */
 .who-can-apply {
   width: 100%;
@@ -470,6 +469,81 @@ apply-right {
 
 .apply-right img {
   background-color: rgb(28, 34, 148);
+}
+
+/* Testimonials */
+.testimonials {
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.title-testimonials {
+  font-weight: 800;
+  color: rgb(28, 34, 148);
+  margin-bottom: 15px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.container .card {
+  position: relative;
+  max-width: 300px;
+  height: 200px;
+  background: #4867aa;
+  margin: 20px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 202px rgba(141, 132, 132, 0.5);
+  transition: 0.3s ease-in-out;
+}
+
+.container .card:hover {
+  height: 500px;
+}
+
+.container .card .img-box {
+  position: relative;
+  width: 300px;
+  height: 260px;
+  top: -60px;
+  left: 20px;
+  z-index: 1;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container .card .img-box img {
+  max-width: 50%;
+  filter: grayscale(100%);
+  border-radius: 4%;
+}
+
+.container .card .content {
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3 ease-in-out;
+  color: #fff;
+  font-size: 13px;
+}
+
+.container .card:hover .content {
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: 0.4s;
 }
 
 /* Volunteer description and application */

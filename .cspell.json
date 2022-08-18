@@ -1,6 +1,6 @@
 {
   "language": "en",
-  "words": [],
+  "words": ["Edelbi", "Munene", "Olutubo", "theprogrampage", "Verousca"],
   "ignorePaths": [
     "node_modules/**",
     "package.json",
