@@ -187,7 +187,8 @@ nav {
   font-weight: bold;
 }
 
-.apply-right b {
+.apply-right b,
+.volunteer-benefits b {
   color: rgb(74, 80, 187);
   font-weight: bold;
 }
@@ -432,6 +433,7 @@ nav {
   padding: 50px 20px;
   display: flex;
   margin-bottom: 20px;
+  background-color: #f8f9fc;
 }
 
 .apply-left {
@@ -444,7 +446,8 @@ nav {
 }
 
 .apply-left h2,
-.links h2 {
+.links h2,
+.benefits-question h2 {
   color: rgb(28, 34, 148);
   text-transform: uppercase;
   font-weight: 700;
@@ -498,6 +501,10 @@ nav {
   justify-content: center;
 }
 
+.volunteer-apply {
+  margin-left: 80px;
+}
+
 /* More details about the program */
 .more-details {
   display: flex;
@@ -532,7 +539,8 @@ nav {
   color: #1c2294;
 }
 
-.languages img {
+.languages img,
+.benefits-answers img {
   width: 65px;
   height: 60px;
 }
@@ -591,6 +599,12 @@ nav {
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 
+.images img {
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
 .container .card .img-box img {
   max-width: 50%;
   filter: grayscale(100%);
@@ -614,4 +628,52 @@ nav {
   opacity: 1;
   margin-top: -40px;
   transition-delay: 0.4s;
+}
+
+/* Volunteer Benefits from HYF */
+.volunteer-benefits {
+  width: 100%;
+  padding: 50px 20px;
+  background-color: #f8f9fc;
+}
+
+.benefits-text {
+  margin: 0 192px;
+  padding: 10px 0;
+  display: flex;
+}
+
+.benefits-question {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.question-title {
+  text-align: left;
+}
+
+.benefits-answers {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.answers {
+  display: flex;
+  padding: 20px;
+  width: 50%;
+}
+
+.answers p {
+  text-align: left;
+  margin: 0;
+  max-width: none;
+}
+
+.answers .image {
+  width: 100px;
+  max-width: 100px;
+  min-width: 100px;
 }
