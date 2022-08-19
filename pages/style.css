@@ -306,6 +306,142 @@ nav {
   justify-content: space-between;
 }
 
+/* Donation information section */
+
+.donation-container {
+  display: flex;
+  width: 100%;
+  background: rgb(248, 249, 252);
+}
+
+.donation-content {
+  display: flex;
+  width: 85%;
+  margin: 50px auto;
+}
+
+.donation-info {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.donation-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(28, 34, 148);
+  text-align: left;
+  padding-right: 80px;
+}
+
+.donation-paragraph {
+  color: rgb(45, 48, 55);
+  text-align: left;
+  padding-right: 250px;
+}
+
+.donation-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.donation-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.donation-Repetition {
+  display: flex;
+  flex-direction: row;
+}
+
+.donation-Repetition label {
+  cursor: pointer;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.donation-Repetition p {
+  color: rgb(28, 34, 148);
+  text-align: left;
+  font-size: 16px;
+  margin: 0px;
+}
+
+.donation-Repetition input {
+  margin-right: 10px;
+}
+
+.donation-amount {
+  display: flex;
+  flex-direction: column;
+}
+
+.donation-amount ul {
+  display: flex;
+  margin: 20px 0;
+}
+
+.donation-amount li {
+  display: flex;
+  border: 1px solid rgb(28, 34, 148);
+  color: rgb(28, 34, 148);
+  padding: 15px 20px;
+  cursor: pointer;
+  -webkit-box-pack: center;
+  justify-content: center;
+  background-color: white;
+  font-family: "Work Sans", sans-serif;
+}
+
+li.donation-amount-selected {
+  background-color: rgb(28, 34, 148);
+  color: white;
+}
+
+.donation-amount label {
+  color: rgb(28, 34, 148);
+  text-align: left;
+  font-family: "Work Sans", sans-serif;
+}
+
+.donation-amount input {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid rgb(28, 34, 148);
+  margin: 20px 0px;
+  font-size: 18px;
+  padding: 5px;
+  box-sizing: border-box;
+  color: rgb(28, 34, 148);
+  background-color: transparent;
+  outline: none;
+}
+
+.donate-btn {
+  display: inline-flex;
+  font-size: 12px;
+  line-height: 160%;
+  text-decoration: none;
+  background-color: rgb(74, 80, 187);
+  color: white;
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+}
+
 /* Footer */
 .footer {
   padding: 50px 20px;
