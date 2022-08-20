@@ -1,6 +1,25 @@
 {
   "language": "en",
-  "words": [],
+  "words": [
+    "appli",
+    "Cantersteen",
+    "Cronos",
+    "Edelbi",
+    "Edoauardo",
+    "Edouardo",
+    "Epitech",
+    "Gita",
+    "Hanim",
+    "intor",
+    "livechat",
+    "Munene",
+    "Olutubo",
+    "Optis",
+    "Ramzi",
+    "theprogrampage",
+    "Verousca",
+    "Zeynep"
+  ],
   "ignorePaths": [
     "node_modules/**",
     "package.json",
