@@ -810,13 +810,11 @@ li.donation-amount-selected {
   object-fit: contain;
 }
 
-/* mentorship program images */
-.coach-program .image-anthony img {
-  box-shadow: 0 0 20px rgb(171, 192, 197);
-}
-
-.mentor-program .image-eleni img {
-  box-shadow: 0 0 20px rgb(171, 192, 197);
+.about img {
+  width: 60px;
+  height: 60px;
+  object-fit: fill;
+  border-radius: 0;
 }
 
 .container .card .img-box img {
@@ -955,73 +953,155 @@ iframe {
   border: none;
 }
 
-/* mentor and coach section, volunteer page */
-
-/* coach section */
-.coach-program {
-  display: grid;
-  grid-template-columns: 50% 29%;
-  gap: 2%;
-  padding: 20px;
-  justify-content: start;
-  margin-block: 5%;
+/* What is HYF about? */
+.about-hyf-title {
+  width: 100%;
+  padding: 50px 20px;
 }
 
-.coach-text {
-  font-size: 14px;
-  text-align: left;
-  padding: 10px 20px;
-  margin-top: 25px;
-  box-shadow: 0 0 15px rgb(160, 168, 171);
+.about-title {
+  padding: 10px 0;
+  margin: 0 114px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.coach-text h4 {
-  color: rgb(28, 34, 148);
-  font-size: 22px;
-  text-align: left;
+.about-title h1 {
+  color: #4a50bb;
+  font-size: 36px;
+  margin: 0 0 20px;
+  font-weight: 700;
+  line-height: 120%;
+  text-transform: uppercase;
 }
 
-.coach-title {
+.about-hyf-details {
+  width: 100%;
+  padding: 50px 20px;
+  background-color: #f8f9fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-details {
+  padding: 10px 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-hyf-details .image {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 20px;
+  align-items: stretch;
+  width: 100%;
+}
+
+.about-details .about {
+  padding: 0 20px;
+  width: 230px;
+}
+
+.about-details h3 {
+  font-size: 18px;
   color: rgb(74, 80, 187);
-  text-align: left;
-  font-size: 17px;
-}
-
-.discover-btn {
+  line-height: 140%;
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 0;
   text-align: center;
-  margin-bottom: 5%;
+  font-weight: 700;
 }
 
-.discover-btn:hover {
-  cursor: pointer;
+/* Quotes from other volunteers */
+
+.quotes-section {
+  display: flex;
+  width: 100%;
+  margin: 50px auto;
+  justify-content: center;
 }
 
-/* mentor section */
-.mentor-program {
-  display: grid;
-  grid-template-columns: 27% 50%;
-  gap: 2%;
-  padding: 20px;
-  justify-content: end;
-  margin-block: 5%;
+.quotes-container {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  align-items: center;
+  -webkit-box-align: center;
 }
 
-.mentor-text {
-  font-size: 14px;
-  text-align: right;
-  padding: 10px 20px;
-  margin-top: 25px;
-  box-shadow: 0 0 15px rgb(160, 168, 171);
+.quotes {
+  display: flex;
+  flex-direction: row;
 }
 
-.mentor-text h4 {
+.quote-image {
+  display: flex;
+  width: 50%;
+  height: auto;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.quote-content {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  text-align: left;
+  box-shadow: rgb(0 0 0 / 8%) 0 0 53px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.right-quote {
+  margin: 50px 150px 0 0;
+}
+
+.left-quote {
+  margin: 50px 0 0 150px;
+}
+
+.quote-content h4 {
+  font-size: 20px;
+  line-height: 140%;
+  font-weight: 700;
   color: rgb(28, 34, 148);
-  font-size: 22px;
-  text-align: right;
 }
 
-.mentor-title {
+.quoted-title {
   color: rgb(74, 80, 187);
-  text-align: right;
-  font-size: 17px;
+  margin: 0 0 20px 0;
+  font-weight: 300;
+}
+
+.quoted-text {
+  color: rgb(45, 48, 55);
+  font-size: 16px;
+  font-family: "Space Mono", monospace;
+  margin: 0;
+  font-weight: 300;
+}
+
+.quotes-link {
+  width: 50%;
+  font-size: 12px;
+  background-color: rgb(74, 80, 187);
+  color: white;
+  font-weight: 600;
+  border: 1px solid transparent;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.quotes-link-right {
+  margin-left: 50%;
 }
