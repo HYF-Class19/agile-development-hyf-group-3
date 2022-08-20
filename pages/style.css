@@ -684,6 +684,63 @@ li.donation-amount-selected {
   padding-left: unset;
 }
 
+/* Career Skills Sessions */
+.career {
+  width: 100%;
+  padding: 50px 70px 120px 20px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #f8f9fc;
+  z-index: 1;
+  flex: 0 0 auto;
+}
+
+.career-skills {
+  text-align: left;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 140%;
+  margin-left: 200px;
+  margin-right: 50px;
+  justify-content: center;
+  max-width: 1280px;
+}
+
+.career-skills h4 {
+  font-size: 20px;
+  line-height: 180%;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(28, 34, 148);
+  max-width: none;
+  box-sizing: border-box;
+}
+
+.career-skills-img {
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  box-shadow: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-flex: 0;
+  height: 100%;
+  -webkit-box-pack: start;
+  justify-content: center;
+  max-height: none;
+  max-width: none;
+  width: 100%;
+  z-index: auto;
+  position: relative;
+  flex: 0 1 100%;
+}
+
+.career-skills p {
+  max-width: 470px;
+  line-height: 160%;
+  margin-bottom: 20px;
+}
+
 /* Testimonials */
 .testimonials {
   padding: 50px;
