@@ -306,6 +306,141 @@ nav {
   justify-content: space-between;
 }
 
+/* Donation information section */
+
+.donation-container {
+  display: flex;
+  width: 100%;
+  background: rgb(248, 249, 252);
+}
+
+.donation-content {
+  display: flex;
+  width: 85%;
+  margin: 50px auto;
+}
+
+.donation-info {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.donation-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(28, 34, 148);
+  text-align: left;
+  padding-right: 80px;
+}
+
+.donation-paragraph {
+  color: rgb(45, 48, 55);
+  text-align: left;
+  padding-right: 250px;
+}
+
+.donation-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.donation-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.donation-Repetition {
+  display: flex;
+  flex-direction: row;
+}
+
+.donation-Repetition label {
+  cursor: pointer;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.donation-Repetition p {
+  color: rgb(28, 34, 148);
+  text-align: left;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.donation-Repetition input {
+  margin-right: 10px;
+}
+
+.donation-amount {
+  display: flex;
+  flex-direction: column;
+}
+
+.donation-amount ul {
+  display: flex;
+  margin: 20px 0;
+}
+
+.donation-amount li {
+  display: flex;
+  border: 1px solid rgb(28, 34, 148);
+  color: rgb(28, 34, 148);
+  padding: 15px 20px;
+  cursor: pointer;
+  -webkit-box-pack: center;
+  justify-content: center;
+  background-color: white;
+  font-family: "Work Sans", sans-serif;
+}
+
+li.donation-amount-selected {
+  background-color: rgb(28, 34, 148);
+  color: white;
+}
+
+.donation-amount label {
+  color: rgb(28, 34, 148);
+  text-align: left;
+  font-family: "Work Sans", sans-serif;
+}
+
+.donation-amount input {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid rgb(28, 34, 148);
+  margin: 20px 0;
+  font-size: 18px;
+  padding: 5px;
+  box-sizing: border-box;
+  color: rgb(28, 34, 148);
+  background-color: transparent;
+  outline: none;
+}
+
+.donate-btn {
+  display: inline-flex;
+  font-size: 12px;
+  line-height: 160%;
+  text-decoration: none;
+  background-color: rgb(74, 80, 187);
+  color: white;
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+}
+
 /* Footer */
 .footer {
   padding: 50px 20px;
@@ -549,11 +684,10 @@ nav {
   padding-left: unset;
 }
 
-
 /* Career Skills Sessions */
 .career {
   width: 100%;
-  padding: 50px 70px 120px 20px ;
+  padding: 50px 70px 120px 20px;
   display: flex;
   justify-content: space-around;
   background-color: #f8f9fc;
@@ -568,7 +702,7 @@ nav {
   width: 140%;
   margin-left: 200px;
   margin-right: 50px;
-  justify-content: flex-start;
+  justify-content: center;
   max-width: 1280px;
 }
 
@@ -584,32 +718,27 @@ nav {
 
 .career-skills-img {
   -webkit-box-align: stretch;
-    align-items: stretch;
-    box-shadow: none;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    -webkit-box-flex: 0;
-    height: 100%;
-    -webkit-box-pack: start;
-    justify-content: flex-start;
-    max-height: none;
-    max-width: none;
-    width: 100%;
-    z-index: auto;
-    position: relative;
-    flex: 0 1 100%;
-    margin: 0px;
-    padding: 0px;
+  align-items: stretch;
+  box-shadow: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-flex: 0;
+  height: 100%;
+  -webkit-box-pack: start;
+  justify-content: center;
+  max-height: none;
+  max-width: none;
+  width: 100%;
+  z-index: auto;
+  position: relative;
+  flex: 0 1 100%;
 }
 
 .career-skills p {
   max-width: 470px;
   line-height: 160%;
-  margin: 0px 0px 20px;
-  
-  
-  
+  margin-bottom: 20px;
 }
 
 /* Testimonials */
@@ -739,4 +868,67 @@ nav {
   width: 100px;
   max-width: 100px;
   min-width: 100px;
+}
+
+/* HYF Contact Information */
+.contact-information {
+  width: 100%;
+  display: flex;
+}
+
+.contact-form {
+  width: 40%;
+  display: flex;
+  padding: 50px 100px;
+  background-color: #4a50bb;
+  color: white;
+}
+
+.contact-form form {
+  text-align: left;
+}
+
+.contact-form label {
+  display: block;
+  margin: 20px 0 5px;
+  font-weight: 300;
+}
+
+.contact-form input,
+textarea {
+  width: 100%;
+  margin: 0 0 20px;
+  padding: 10px 5px;
+  border-radius: 3px;
+  color: #fff;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.contact-map {
+  width: 60%;
+  padding-left: 60px;
+  min-height: 400px;
+  background-color: transparent;
+  margin: 0;
+}
+
+.send {
+  padding: 10px 20px;
+  width: unset;
+  color: #2d3037;
+  background-color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
 }
