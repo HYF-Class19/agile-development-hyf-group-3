@@ -1004,3 +1004,91 @@ iframe {
   text-align: center;
   font-weight: 700;
 }
+
+/* Quotes from other volunteers */
+
+.quotes-section {
+  display: flex;
+  width: 100%;
+  margin: 50px auto;
+  justify-content: center;
+}
+
+.quotes-container {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  align-items: center;
+  -webkit-box-align: center;
+}
+
+.quotes {
+  display: flex;
+  flex-direction: row;
+}
+
+.quote-image {
+  display: flex;
+  width: 50%;
+  height: auto;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.quote-content {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  text-align: left;
+  box-shadow: rgb(0 0 0 / 8%) 0 0 53px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.right-quote {
+  margin: 50px 150px 0 0;
+}
+
+.left-quote {
+  margin: 50px 0 0 150px;
+}
+
+.quote-content h4 {
+  font-size: 20px;
+  line-height: 140%;
+  font-weight: 700;
+  color: rgb(28, 34, 148);
+}
+
+.quoted-title {
+  color: rgb(74, 80, 187);
+  margin: 0 0 20px 0;
+  font-weight: 300;
+}
+
+.quoted-text {
+  color: rgb(45, 48, 55);
+  font-size: 16px;
+  font-family: "Space Mono", monospace;
+  margin: 0;
+  font-weight: 300;
+}
+
+.quotes-link {
+  width: 50%;
+  font-size: 12px;
+  background-color: rgb(74, 80, 187);
+  color: white;
+  font-weight: 600;
+  border: 1px solid transparent;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.quotes-link-right {
+  margin-left: 50%;
+}
