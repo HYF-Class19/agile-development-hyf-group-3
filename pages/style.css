@@ -77,6 +77,21 @@ nav {
   padding: 10px 20px;
 }
 
+/* mentorship style here because of lint css */
+.mentorship-text a {
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  background-color: rgb(74, 80, 187);
+  color: white;
+  box-shadow: 0 0 20px rgb(148, 141, 141);
+}
+
 .nav-list-item a {
   color: rgb(127, 127, 127);
 }
@@ -804,6 +819,13 @@ li.donation-amount-selected {
   border-radius: 0;
 }
 
+/* history section */
+.history-img img {
+  max-width: 95%;
+  margin-left: 30px;
+  box-shadow: 0 0 20px rgb(148, 141, 141);
+}
+
 .container .card .img-box img {
   max-width: 50%;
   filter: grayscale(100%);
@@ -1100,13 +1122,6 @@ padding: 40px 50px;
 }
 
 .about-history {
-  /* display: flex;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  align-items: center;
-  width: 100%; */
   max-width: 1280px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -1164,7 +1179,6 @@ padding: 40px 50px;
   width: 100%;
   flex-shrink: 1;
   flex-basis: 100%;
-
 }
 
 /* Quotes from other volunteers */
@@ -1253,16 +1267,65 @@ padding: 40px 50px;
 
 .quotes-link-right {
   margin-left: 50%;
+<<<<<<< HEAD
+=======
+}
+
+/* mentorship section */
+.mentorship-box {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 50% 40%;
+  gap: 8%;
+  justify-content: center;
+  justify-items: center;
+  margin-block: 10%;
+  border: 2px solid transparent;
+}
+
+.mentorship-text {
+  text-align: left;
+}
+
+.mentorship-text h4 {
+  font-size: 20px;
+  line-height: 140%;
+  margin-bottom: 10px;
+  text-transform: none;
+>>>>>>> 7982aa7f8b729c3306c0774bea7d9c5992bbfcff
   font-family: "Work Sans", sans-serif;
   color: rgb(28, 34, 148);
 }
 
 .mentorship-text p {
   color: rgb(45, 48, 55);
+  font-size: 16px;
+  font-family: "Space Mono", monospace;
+  font-weight: 300;
+}
+
+/* history section */
+.history-container {
+  display: grid;
+  grid-template-columns: 45% 50%;
+  gap: 5%;
+  width: 97%;
+  justify-content: center;
+  align-items: center;
+  margin: 2% auto;
+  padding: 10px 0;
+}
+
+.history-text {
+  padding-bottom: 5%;
+}
+
+.history-text p {
+  color: rgb(45, 48, 55);
+  text-align: left;
   max-width: 470px;
   font-size: 16px;
   font-family: "Space Mono", monospace;
+  margin: 0;
   white-space: pre-wrap;
-  word-break: break-word;
-  font-weight: 300;
-}
+
