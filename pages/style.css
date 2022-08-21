@@ -77,6 +77,21 @@ nav {
   padding: 10px 20px;
 }
 
+/* mentorship style here because of lint css */
+.mentorship-text a {
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  background-color: rgb(74, 80, 187);
+  color: white;
+  box-shadow: 0 0 20px rgb(148, 141, 141);
+}
+
 .nav-list-item a {
   color: rgb(127, 127, 127);
 }
@@ -150,22 +165,6 @@ nav {
   box-sizing: border-box;
   text-transform: uppercase;
   font-family: "Work Sans", sans-serif;
-}
-
-/* mentorship section style */
-.mentorship-text a {
-  font-size: 12px;
-  text-decoration: none;
-  font-weight: 600;
-  border: 1px solid blue;
-  border-radius: 4px;
-  padding: 10px 20px;
-  cursor: pointer;
-  text-transform: uppercase;
-  font-family: "Work Sans", sans-serif;
-  background-color: rgb(74, 80, 187);
-  color: white;
-  box-shadow: 0 0 20px rgb(148, 141, 141);
 }
 
 /* .volunteer-apply a {
@@ -975,6 +974,13 @@ li.donation-amount-selected {
   border-radius: 0;
 }
 
+/* history section */
+.history-img img {
+  max-width: 95%;
+  margin-left: 30px;
+  box-shadow: 0 0 20px rgb(148, 141, 141);
+}
+
 .container .card .img-box img {
   max-width: 50%;
   filter: grayscale(100%);
@@ -1380,11 +1386,14 @@ iframe {
 
 /* mentorship section */
 .mentorship-box {
+  width: 90%;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 50% 40%;
   gap: 8%;
   justify-content: center;
-  margin-block: 20px;
+  justify-items: center;
+  margin-block: 10%;
+  border: 2px solid transparent;
 }
 
 .mentorship-text {
@@ -1394,7 +1403,7 @@ iframe {
 .mentorship-text h4 {
   font-size: 20px;
   line-height: 140%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-transform: none;
   font-family: "Work Sans", sans-serif;
   color: rgb(28, 34, 148);
@@ -1402,10 +1411,44 @@ iframe {
 
 .mentorship-text p {
   color: rgb(45, 48, 55);
+  font-size: 16px;
+  font-family: "Space Mono", monospace;
+  font-weight: 300;
+}
+
+/* history section */
+.history-container {
+  display: grid;
+  grid-template-columns: 45% 50%;
+  gap: 5%;
+  width: 97%;
+  justify-content: center;
+  align-items: center;
+  margin: 2% auto;
+  padding: 10px 0;
+}
+
+.history-text {
+  padding-bottom: 5%;
+}
+
+.history-text p {
+  color: rgb(45, 48, 55);
+  text-align: left;
   max-width: 470px;
   font-size: 16px;
   font-family: "Space Mono", monospace;
+  margin: 0;
   white-space: pre-wrap;
-  word-break: break-word;
-  font-weight: 300;
+}
+
+.history-text h2 {
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(28, 34, 148);
+  text-align: left;
+  max-width: none;
 }
