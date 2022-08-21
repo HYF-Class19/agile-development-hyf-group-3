@@ -4,10 +4,5 @@
   "files.autoSave": "afterDelay",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "liveServer.settings.port": 5504,
-  "cSpell.words": [
-    "Channa",
-    "Epitech",
-    "referrerpolicy",
-    "Tugba"
-  ]
+  "cSpell.words": ["Channa", "Epitech", "referrerpolicy", "Tugba"]
 }

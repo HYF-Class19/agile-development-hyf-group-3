@@ -1,10 +1,11 @@
 @import url("./something.css");
+
 .dbDDLx {
   display: flex;
   -webkit-box-pack: end;
   justify-content: flex-end;
   width: 100%;
-  padding: 50px 0px;
+  padding: 50px;
   position: relative;
   box-shadow: none;
   background: none;

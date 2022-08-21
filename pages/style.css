@@ -278,49 +278,48 @@ nav {
   font-weight: 700;
 }
 
-
-
 /* HYF Values */
 
-.values { 
-  display:flex;
+.values {
+  display: flex;
   background-color: rgb(248, 249, 252);
-  padding: 50px 0 ;
+  padding: 50px 0;
   width: 100%;
-  
-} 
+}
 
 .values-container {
-  display:flex;
+  display: flex;
   background-color: rgb(248, 249, 252);
   padding: 100px;
-  flex-direction:column;
+  flex-direction: column;
 }
+
 .values-title {
-    font-size: 20px;
-    width:300px;
-    margin-top: 5px;
-    text-transform: uppercase;
-    font-family: "Work Sans", sans-serif;
-    font-weight: bold;
-    color: rgb(28, 34, 148);
-    text-align: left;
-    max-width: none;
+  font-size: 20px;
+  width: 300px;
+  margin-top: 5px;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  color: rgb(28, 34, 148);
+  text-align: left;
+  max-width: none;
 }
+
 .values-text {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .community {
   display: flex;
   flex-direction: column;
-  width:40%;
+  width: 40%;
   align-items: flex-start;
   margin-bottom: 40px;
-} 
+}
 
 .community-title {
   font-size: 20px;
@@ -339,26 +338,17 @@ nav {
   width: 70px;
   flex-direction: column;
   align-items: flex-start;
-  size-adjust: 20px;
   margin-bottom: 20px;
   min-height: 70px;
   object-fit: contain;
 }
 
-.text-paragraph {
-    font-size: 17px;   
-    display: flex;
-    text-align: left;
-    padding: 5px 10px;
-}
-
-.commitment { 
+.commitment {
   display: flex;
   flex-direction: column;
-  width:40%;
+  width: 40%;
   align-items: flex-start;
   margin-bottom: 40px;
-
 }
 
 .commitment-title {
@@ -378,7 +368,6 @@ nav {
   width: 70px;
   flex-direction: column;
   align-items: flex-start;
-  size-adjust: 20px;
   margin-bottom: 20px;
   min-height: 70px;
   object-fit: contain;
@@ -387,7 +376,7 @@ nav {
 .diversity {
   display: flex;
   flex-direction: column;
-  width:40%;
+  width: 40%;
   align-items: flex-start;
   margin-bottom: 40px;
 }
@@ -409,7 +398,6 @@ nav {
   width: 70px;
   flex-direction: column;
   align-items: flex-start;
-  size-adjust: 20px;
   margin-bottom: 20px;
   min-height: 70px;
   object-fit: contain;
@@ -418,7 +406,7 @@ nav {
 .open1 {
   display: flex;
   flex-direction: column;
-  width:40%;
+  width: 40%;
   align-items: flex-start;
   margin-bottom: 40px;
 }
@@ -440,7 +428,6 @@ nav {
   width: 70px;
   flex-direction: column;
   align-items: flex-start;
-  size-adjust: 20px;
   margin-bottom: 20px;
   min-height: 70px;
   object-fit: contain;
@@ -1124,7 +1111,6 @@ iframe {
   border: none;
 }
 
-
 /* What is HYF about? */
 .about-hyf-title {
   width: 100%;
@@ -1193,42 +1179,41 @@ iframe {
 /* Our Team */
 
 .team {
-    font-size: 20px;
-    line-height: 140%;
-    text-transform: uppercase;
-    font-family: "Work Sans", sans-serif;
-    font-weight: 700;
-    color: rgb(28, 34, 148);
-    text-align: left;
-    max-width: none;
-} 
+  font-size: 20px;
+  line-height: 140%;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(28, 34, 148);
+  text-align: left;
+  max-width: none;
+}
 
-.team-title{
-    font-size: 25px;
-    line-height: 140%;
-    text-transform: uppercase;
-    font-family: "Work Sans", sans-serif;
-    font-weight: 700;
-    color: rgb(28, 34, 148);
-    text-align: left;
-    max-width: none;
-    padding-right: 80%;
+.team-title {
+  font-size: 25px;
+  line-height: 140%;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(28, 34, 148);
+  text-align: left;
+  max-width: none;
+  padding-right: 80%;
 }
 
 .team-info {
-    display: flex;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
-    width: 100%;
-    max-width: 1280px;
-    padding-top: 10px;
-    margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1280px;
+  padding-top: 10px;
 }
 
-.team-structure{
+.team-structure {
   display: flex;
   width: 100%;
   -webkit-box-pack: center;
@@ -1237,21 +1222,21 @@ iframe {
   padding-left: 100px;
 }
 
-.team-member{
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    justify-content: center;
-    margin: 5px;
-    -webkit-box-align: center;
-    align-items: center;
-    box-shadow: rgb(0 0 0 / 10%) 5px 4px 8px 5px;
-    padding: 20px;
-    border-radius: 7px;
+.team-member {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin: 5px;
+  -webkit-box-align: center;
+  align-items: center;
+  box-shadow: rgb(0 0 0 / 10%) 5px 4px 8px 5px;
+  padding: 20px;
+  border-radius: 7px;
 }
 
-.member-info{
+.member-info {
   font-size: 20px;
   line-height: 5%;
   text-transform: none;
@@ -1259,10 +1244,10 @@ iframe {
   font-weight: 700;
   color: rgb(28, 34, 148);
   text-align: left;
-  max-width: none
+  max-width: none;
 }
 
-.profession  {
+.profession {
   color: rgb(74, 80, 187);
   text-align: center;
   text-transform: capitalize;
@@ -1270,7 +1255,6 @@ iframe {
   line-height: 130%;
   font-size: 16px;
   font-family: "Work Sans", sans-serif;
-  margin: 0px;
   white-space: pre-wrap;
   word-break: break-word;
   font-weight: 100;
@@ -1282,29 +1266,28 @@ iframe {
   object-fit: cover;
   border-radius: 100%;
   margin-bottom: 20px;
-  filter:grayscale(1);
-  min-height:180px;
+  filter: grayscale(1);
+  min-height: 180px;
   min-width: 180px;
 }
-.contact-info{
+
+.contact-info {
   -webkit-box-align: stretch;
-    align-items: stretch;
-    box-shadow: none;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    -webkit-box-flex: 0;
-    height: auto;
-    justify-content: space-around;
-    max-height: none;
-    max-width: 100px;
-    width: 100%;
-    z-index: 0;
-    position: static;
-    background: none 0% 0% / auto transparent;
-    flex: 0 1 100%;
-    margin: 0px;
-    padding: 0px;
+  align-items: stretch;
+  box-shadow: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-flex: 0;
+  height: auto;
+  justify-content: space-around;
+  max-height: none;
+  max-width: 100px;
+  width: 100%;
+  z-index: 0;
+  position: static;
+  background: none 0% 0% / auto transparent;
+  flex: 0 1 100%;
 }
 
 /* Quotes from other volunteers */
@@ -1426,4 +1409,3 @@ iframe {
   word-break: break-word;
   font-weight: 300;
 }
-
