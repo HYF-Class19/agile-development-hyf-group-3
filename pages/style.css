@@ -1074,7 +1074,7 @@ iframe {
 
 .mission-heading {
   margin-bottom: 20px;
-  color:rgb(28, 34, 148);
+  color: rgb(28, 34, 148);
   text-align: left;
   max-width: none;
 }
@@ -1087,12 +1087,11 @@ iframe {
 }
 
 .vision {
-width: 48%;
-display: flex;
-flex-direction: column;
-box-shadow: rgb(0 0 0 / 8%) 0 0 53px;
-;
-padding: 40px 50px;
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgb(0 0 0 / 8%) 0 0 53px;
+  padding: 40px 50px;
 }
 
 .vision-heading {
@@ -1130,7 +1129,7 @@ padding: 40px 50px;
 .history-details {
   width: 100%;
   display: flex;
-  margin-top: 50px ;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -1146,7 +1145,7 @@ padding: 40px 50px;
 
 .history-heading {
   margin-bottom: 20px;
-  color:rgb(28, 34, 148);
+  color: rgb(28, 34, 148);
   text-align: left;
   max-width: none;
 }
@@ -1267,8 +1266,6 @@ padding: 40px 50px;
 
 .quotes-link-right {
   margin-left: 50%;
-<<<<<<< HEAD
-=======
 }
 
 /* mentorship section */
@@ -1292,7 +1289,6 @@ padding: 40px 50px;
   line-height: 140%;
   margin-bottom: 10px;
   text-transform: none;
->>>>>>> 7982aa7f8b729c3306c0774bea7d9c5992bbfcff
   font-family: "Work Sans", sans-serif;
   color: rgb(28, 34, 148);
 }
@@ -1303,29 +1299,3 @@ padding: 40px 50px;
   font-family: "Space Mono", monospace;
   font-weight: 300;
 }
-
-/* history section */
-.history-container {
-  display: grid;
-  grid-template-columns: 45% 50%;
-  gap: 5%;
-  width: 97%;
-  justify-content: center;
-  align-items: center;
-  margin: 2% auto;
-  padding: 10px 0;
-}
-
-.history-text {
-  padding-bottom: 5%;
-}
-
-.history-text p {
-  color: rgb(45, 48, 55);
-  text-align: left;
-  max-width: 470px;
-  font-size: 16px;
-  font-family: "Space Mono", monospace;
-  margin: 0;
-  white-space: pre-wrap;
-
