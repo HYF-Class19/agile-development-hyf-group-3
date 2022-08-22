@@ -1,8 +1,8 @@
 {
   "editor.formatOnSave": true,
-  "editor.renderIndentGuides": true,
   "editor.tabSize": 2,
   "files.autoSave": "afterDelay",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "liveServer.settings.port": 5504
+  "liveServer.settings.port": 5504,
+  "cSpell.words": ["Channa", "Epitech", "referrerpolicy", "Tugba"]
 }

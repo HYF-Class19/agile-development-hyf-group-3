@@ -277,6 +277,161 @@ nav {
   font-weight: 700;
 }
 
+/* HYF Values */
+
+.values {
+  display: flex;
+  background-color: rgb(248, 249, 252);
+  padding: 50px 0;
+  width: 100%;
+}
+
+.values-container {
+  display: flex;
+  background-color: rgb(248, 249, 252);
+  padding: 100px;
+  flex-direction: column;
+}
+
+.values-title {
+  font-size: 20px;
+  width: 300px;
+  margin-top: 5px;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  color: rgb(28, 34, 148);
+  text-align: left;
+  max-width: none;
+}
+
+.values-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.community {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.community-title {
+  font-size: 20px;
+  line-height: 140%;
+  margin-bottom: 20px;
+  text-transform: none;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  color: rgb(28, 34, 148);
+  text-align: left;
+  max-width: none;
+}
+
+.community-img {
+  display: flex;
+  width: 70px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  min-height: 70px;
+  object-fit: contain;
+}
+
+.commitment {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.commitment-title {
+  font-size: 20px;
+  line-height: 140%;
+  margin-bottom: 20px;
+  text-transform: none;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(28, 34, 148);
+  text-align: left;
+  max-width: none;
+}
+
+.commitment-img {
+  display: flex;
+  width: 70px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  min-height: 70px;
+  object-fit: contain;
+}
+
+.diversity {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.diversity-title {
+  font-size: 20px;
+  line-height: 140%;
+  margin-bottom: 20px;
+  text-transform: none;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(28, 34, 148);
+  text-align: left;
+  max-width: none;
+}
+
+.diversity-img {
+  display: flex;
+  width: 70px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  min-height: 70px;
+  object-fit: contain;
+}
+
+.open1 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.open-title {
+  font-size: 20px;
+  line-height: 140%;
+  margin-bottom: 20px;
+  text-transform: none;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(28, 34, 148);
+  text-align: left;
+  max-width: none;
+}
+
+.open-img {
+  display: flex;
+  width: 70px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  min-height: 70px;
+  object-fit: contain;
+}
+
 /* HYF partners */
 .partners-container {
   width: 85%;
@@ -1027,6 +1182,16 @@ iframe {
   font-weight: 700;
 }
 
+
+/* Our Team */
+
+.team {
+  font-size: 20px;
+  line-height: 140%;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+
 /* Mission & Vision */
 
 .mission-vision {
@@ -1074,10 +1239,66 @@ iframe {
 
 .mission-heading {
   margin-bottom: 20px;
+
   color: rgb(28, 34, 148);
   text-align: left;
   max-width: none;
 }
+
+/* our-team */
+.team-title {
+  font-size: 25px;
+  line-height: 140%;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(28, 34, 148);
+  text-align: left;
+  max-width: none;
+  padding-right: 80%;
+}
+
+.team-info {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1280px;
+  padding-top: 10px;
+}
+
+.team-structure {
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 100px;
+}
+
+.team-member {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin: 5px;
+  -webkit-box-align: center;
+  align-items: center;
+  box-shadow: rgb(0 0 0 / 10%) 5px 4px 8px 5px;
+  padding: 20px;
+  border-radius: 7px;
+}
+
+.member-info {
+  font-size: 20px;
+  line-height: 5%;
+  text-transform: none;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
 
 .mission-statement {
   text-align: left;
@@ -1145,10 +1366,54 @@ iframe {
 
 .history-heading {
   margin-bottom: 20px;
+r
   color: rgb(28, 34, 148);
   text-align: left;
   max-width: none;
 }
+
+
+.profession {
+  color: rgb(74, 80, 187);
+  text-align: center;
+  text-transform: capitalize;
+  max-width: none;
+  line-height: 130%;
+  font-size: 16px;
+  font-family: "Work Sans", sans-serif;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-weight: 100;
+}
+
+.img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 100%;
+  margin-bottom: 20px;
+  filter: grayscale(1);
+  min-height: 180px;
+  min-width: 180px;
+}
+
+.contact-info {
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  box-shadow: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-flex: 0;
+  height: auto;
+  justify-content: space-around;
+  max-height: none;
+  max-width: 100px;
+  width: 100%;
+  z-index: 0;
+  position: static;
+  background: none 0% 0% / auto transparent;
+  flex: 0 1 100%;
 
 .history-story {
   text-align: left;
@@ -1178,6 +1443,7 @@ iframe {
   width: 100%;
   flex-shrink: 1;
   flex-basis: 100%;
+
 }
 
 /* Quotes from other volunteers */
